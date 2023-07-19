@@ -1,0 +1,4 @@
+EHLO 1.1.1.1
+RSET
+NOOP
+QUIT

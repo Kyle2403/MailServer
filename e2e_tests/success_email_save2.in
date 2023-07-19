@@ -1,0 +1,8 @@
+EHLO 1.1.1.1
+MAIL FROM:<asd@gmail.com>
+RCPT TO:<asw@gmail.com>
+DATA
+Date: Mon 15
+Subject: bruh
+.
+QUIT

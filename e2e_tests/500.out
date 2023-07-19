@@ -1,0 +1,8 @@
+S: 220 Service ready
+C: EHLO 1.1.1.1
+S: 250 127.0.0.1
+S: 250 AUTH CRAM-MD5
+C: helo 1.1.1.1
+S: 500 Syntax error, command unrecognized
+C: QUIT
+S: 221 Service closing transmission channel

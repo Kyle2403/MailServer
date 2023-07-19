@@ -1,0 +1,20 @@
+EHLO
+EHLO 1.1.1.1.1
+EHLO a.a.a.a
+EHLO 256.256.257.257
+EHLO 1.1.1.1
+MAIL FROM:
+MAIL FROM:<>
+MAIL:
+RCPT:
+MAIL FROM:<asd@gmail.com
+MAIL FROM:<asd@gmail.com>
+RCPT TO:<abc@gmail.com>
+RCPT TO:<abc@gmail.com
+DATA
+RSET 1
+RSET
+NOOP 1
+NOOP
+QUIT 1
+QUIT

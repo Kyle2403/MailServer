@@ -1,0 +1,10 @@
+S: 220 Service ready
+C: EHLO 1.1.1.1
+S: 250 127.0.0.1
+S: 250 AUTH CRAM-MD5
+C: MAIL FROM:<kaw@gmail.com>
+S: 250 Requested mail action okay completed
+C: AUTH CRAM-MD5
+S: 503 Bad sequence of commands
+C: QUIT
+S: 221 Service closing transmission channel

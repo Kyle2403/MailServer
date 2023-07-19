@@ -1,0 +1,6 @@
+MAIL FROM:<asd@gmail.com>
+EHLO 1.1.1.1
+RCPT TO:<asd@gmail.com>
+RSET
+DATA
+QUIT

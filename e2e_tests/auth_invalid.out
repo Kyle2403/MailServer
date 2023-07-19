@@ -1,0 +1,28 @@
+S: 220 Service ready
+C: EHLO 1.1.1.1
+S: 250 127.0.0.1
+S: 250 AUTH CRAM-MD5
+C: AUTH CRAWS
+S: 504 Unrecognized authentication type
+C: AUTH
+S: 501 Syntax error in parameters or arguments
+C: AUTH CRAM-MD5
+S: 334 NkxTQ05NUU5LODBZVjk1WkhDTkZSMko5QlpQVzBCVlAyRUFLRTE4SDA4VE9WOE1FNTBGW
+Tg0TzNXSFJQRUtCNlJXOENGTFhUVkJLWkQxTEVC
+C: cmdmasdmasdam
+S: 501 Syntax error in parameters or arguments
+C: AUTH CRAM-MD5
+S: 334 VzRRQUs5QUZMVDVWSUJPSlZKMk03OFg0VVZMSDhEOFhDOFVVOVdTVVc1R0kySTlRMFlEQ
+ktLRVA0WUJSWjc0MVJNS1hZREhLWTJKSFZQQ00xMU5FTVZRNkxCTzhDVEczN0NVUjcyWVFPSk
+w2UVAyMEVFRA==
+C: MTBDMUIxIDRlZWYyYmNlNDMwZTVjZWMzMDllNDg5MzIxY
+S: 501 Syntax error in parameters or arguments
+C: AUTH CRAM-MD5
+S: 334 UjNTSjE4N1NQSVlWNjI2NERNM1dLVjhOVlFHV0dMVEFCMUhYUTQxS1hRNjZEOFY0UFQ5U
+0lHQzNIQlIyQTg=
+C: MTBDMUIxIDRlZWYyYmNlNDMwZTVjZWMzMDllNDg5MzIxYmU1NDdk
+S: 535 Authentication credentials invalid
+C: QUIT 
+S: 501 Syntax error in parameters or arguments
+C: QUIT
+S: 221 Service closing transmission channel

@@ -1,0 +1,7 @@
+EHLO 1.1.1.1
+MAIL FROM:<asd@gmail.com>
+RCPT TO:<za@gmail.com>
+DATA
+Date: Mon, 14 Aug 2002 02:34:56 -0600
+.
+QUIT

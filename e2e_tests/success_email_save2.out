@@ -1,0 +1,18 @@
+S: 220 Service ready
+C: EHLO 1.1.1.1
+S: 250 127.0.0.1
+S: 250 AUTH CRAM-MD5
+C: MAIL FROM:<asd@gmail.com>
+S: 250 Requested mail action okay completed
+C: RCPT TO:<asw@gmail.com>
+S: 250 Requested mail action okay completed
+C: DATA
+S: 354 Start mail input end <CRLF>.<CRLF>
+C: Date: Mon 15
+S: 354 Start mail input end <CRLF>.<CRLF>
+C: Subject: bruh
+S: 354 Start mail input end <CRLF>.<CRLF>
+C: .
+S: 250 Requested mail action okay completed
+C: QUIT
+S: 221 Service closing transmission channel

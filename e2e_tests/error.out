@@ -1,0 +1,42 @@
+S: 220 Service ready
+C: EHLO
+S: 501 Syntax error in parameters or arguments
+C: EHLO 1.1.1.1.1
+S: 501 Syntax error in parameters or arguments
+C: EHLO a.a.a.a
+S: 501 Syntax error in parameters or arguments
+C: EHLO 256.256.257.257
+S: 501 Syntax error in parameters or arguments
+C: EHLO 1.1.1.1
+S: 250 127.0.0.1
+S: 250 AUTH CRAM-MD5
+C: MAIL FROM:
+S: 501 Syntax error in parameters or arguments
+C: MAIL FROM:<>
+S: 501 Syntax error in parameters or arguments
+C: MAIL:
+S: 501 Syntax error in parameters or arguments
+C: RCPT:
+S: 503 Bad sequence of commands
+C: MAIL FROM:<asd@gmail.com
+S: 501 Syntax error in parameters or arguments
+C: MAIL FROM:<asd@gmail.com>
+S: 250 Requested mail action okay completed
+C: RCPT TO:<abc@gmail.com>
+S: 250 Requested mail action okay completed
+C: RCPT TO:<abc@gmail.com
+S: 501 Syntax error in parameters or arguments
+C: DATA
+S: 354 Start mail input end <CRLF>.<CRLF>
+C: RSET 1
+S: 354 Start mail input end <CRLF>.<CRLF>
+C: RSET
+S: 354 Start mail input end <CRLF>.<CRLF>
+C: NOOP 1
+S: 354 Start mail input end <CRLF>.<CRLF>
+C: NOOP
+S: 354 Start mail input end <CRLF>.<CRLF>
+C: QUIT 1
+S: 354 Start mail input end <CRLF>.<CRLF>
+C: QUIT
+S: 221 Service closing transmission channel

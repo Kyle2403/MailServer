@@ -1,0 +1,6 @@
+S: 220 Service ready
+C: EHLO 1.1.1.1
+S: 250 127.0.0.1
+S: 250 AUTH CRAM-MD5
+C: SIGINT
+S: 421 Service not available, closing transmission channel

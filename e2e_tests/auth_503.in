@@ -1,0 +1,4 @@
+EHLO 1.1.1.1
+MAIL FROM:<kaw@gmail.com>
+AUTH CRAM-MD5
+QUIT

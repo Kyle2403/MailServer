@@ -1,0 +1,7 @@
+EHLO 1.1.1.1
+MAIL FROM:<asd@gmail.com>
+RCPT TO:<asx@gmail.com>
+DATA
+asbc
+.
+QUIT
