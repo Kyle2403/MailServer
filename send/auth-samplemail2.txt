@@ -1,0 +1,6 @@
+From: <bob@bob.osrg>
+To: <alice@example.com>,<me@carol.me>
+Date: Mon, 14 Aug 2006 02:34:56 -0600
+Subject: Frist Electronic Mail from Bob to Alice and Carol
+Across the Exosphere we can reach every corner on the Moon.
+P.S. THIS IS the second file
