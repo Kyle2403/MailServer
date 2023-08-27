@@ -1,1 +1,0 @@
-python server.py server_config.txt
